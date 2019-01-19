@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>UN Goals Step 6</title>
+	<title>UN Goals Step 7</title>
 
 <style>
 	body {
@@ -70,13 +70,11 @@
     width: 100%;
     z-index: 1000;
   }
-
-
 </style>
-
 </head>
-<body>
 
+
+<body>
 
 <div class = "topbar">
   <picture>
@@ -305,6 +303,27 @@
       </div>
     </div>
 </div>
+
+<script>
+
+  window.onresize = function(event){
+
+    w = window.innerWidth
+    
+    if (w>940){
+
+      document.getElementsByClassName("flex-container")[0].style.marginTop="200px";
+
+    }
+    else{
+
+      document.getElementsByClassName("flex-container")[0].style.marginTop="280px";
+
+    }
+
+  }
+
+</script>
 
 </body>
 </html>
