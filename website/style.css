@@ -1,16 +1,17 @@
 /* Don't need style tag because this file is all style*/	
 
 	body{
-		font-family:  Optima, Arial, Helvetica, sans-serif;
+		font-family: Varela Round, Optima, Arial, Helvetica, sans-serif;
 		margin:0px;
+		background-color: #ECF0F1;
 	}
 
 	header {
         height: 200px;
-        line-height: 200px;
+        line-height: 100px;
         text-align: center;
         background-color: #00AED9;
-        font-size: 500%;
+        font-size: 400%;
 	}
 
 	img{
@@ -43,13 +44,13 @@
 	}
 
 	.fa {
-	padding: 30px;
-	font-size: 30px;
-	width: 30px;
-	text-align: center;
-	text-decoration: none;
-	margin: 5px 2px;
-	border-radius: 50%;
+		padding: 25px;
+		font-size: 35px;
+		width: 35px;
+		text-align: center;
+		text-decoration: none;
+		margin: 5px 2px;
+		border-radius: 50%;
 	}
 
 	.fa:hover {
@@ -226,7 +227,7 @@
 	.flex-container {
 	  display: flex;
 	  flex-wrap: wrap;
-	  background-color: white;
+	  background-color: blue;
 	  align-content: center;    
 	  justify-content: center;
 	  margin-top: 20px;
